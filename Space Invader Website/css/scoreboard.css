@@ -1,0 +1,12 @@
+table{
+	width: 50%;
+	background-color: darkred;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+th,td {
+	border: 5px solid black;
+	background-color: black;
+}

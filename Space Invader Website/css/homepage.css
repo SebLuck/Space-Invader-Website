@@ -1,0 +1,27 @@
+h1 {
+	color: darkred;
+	text-align: center;
+	font-family: Algerian;
+	font-size: 40px;	
+		
+}
+		
+		
+p {
+	color: white;
+	text-align:center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.welcome {
+	background-image: url("Images/welcome.jpg");
+	padding: 10px;	
+}
+
+.image_homepage {
+	width: 60%;
+	margin-left: 19%;
+	padding: 20px;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Space Shooter </title>
+		<link rel="stylesheet" type="text/css" href="css/header_footer.css" >
+		<link rel="stylesheet" type="text/css" href="css/login.css" >
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+		<!-- header  -->
+		<div class="menubar">
+			<a href="homepage.html"> Home </a>
+			<a href="gamepage.html"> Game </a>
+			<a href="scoreboard.html"> Leaderboard </a>
+			<a href="signup.html"> Sign up</a>
+			<a class="on" href="login.html"> Login </a>			
+		</div>
+
+		<div class="image">
+			<img class="icon" src="Images/alien2.png">
+			<img src="Images/title.gif" >
+		</div>
+		
+		<!-- Login  -->
+
+		<div class="logout">
+			<p id="user_username"></p>
+			<p id="user_score"></p>
+		<button type="submit" value="Logout"  class="logout_button" onclick="logOut()">Logout</button>
+		</div>
+		
+		<div class="user_login">
+			<form  onsubmit="return false">
+				<div class="login">
+				
+					<h1>Log in<h1>
+					
+					<hr>
+
+					<input class="username" type="text" placeholder="Enter a username" name="username" id="username2" required>
+
+			
+					<input type="password" placeholder="Enter a password" name="password" id="password2" required>
+				
+		
+					<br>
+					<button type="submit" value="Login" id="submit1" >Login</button>
+				
+				</div>
+				
+		
+				<!-- Link to the sign up page  -->
+				<div class="signup">
+					<hr>
+					<span id="wrong_data"> </span>
+					<p> Don't have an account? <a href="signup.html"> Sign up here. </a> </p>
+				</div>
+				
+			</form>
+		</div>
+
+		<script src="javascript/login.js"> </script> 
+		
+		<!-- footer  -->
+		<div class="footer">
+			<div>
+				<img class="logo" src="Images/logo.png" >
+			</div>
+			<br>
+			<br>
+			<br>
+			<div>
+				<h3 class="follow"> Follow Us</h2>
+				<a href="https://www.twitter.com/" class="fa fa-twitter"> </a>
+				<a href="https://www.youtube.com/" class="fa fa-youtube"> </a>
+				<a href="https://www.twitch.com/" class="fa fa-twitch"> </a>
+			</div>
+			<br>
+			<div>
+				<h4 class="copyright"> Copyright © 2021 Sebastien Luckhoo All Rights Reserved</h3>
+			</div>
+			
+		</div>
+		
+</html>

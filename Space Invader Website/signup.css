@@ -1,0 +1,48 @@
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+
+.register {
+    padding: 20px;
+    width: 60%;
+    margin-left: 17%;
+    background-color: white;
+}
+
+.register_button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 210px;
+    cursor: pointer;
+
+}
+p {
+    color: black;
+}
+
+.signin {
+    padding: 20px;
+    width: 60%;
+    margin-left: 17%;
+    background-color: white;
+    text-align: center;
+}
+
+input[type=password]{
+    width: 50%;
+    padding:10px;
+    margin: 6px 0px 20px 0px;
+    background: #C0C0C0;
+    
+}
+
+.username {
+
+    background-color: #C0C0C0; 
+    width: 50%;
+    padding:10px; 
+    margin: 6px 0px 20px 0px;
+}

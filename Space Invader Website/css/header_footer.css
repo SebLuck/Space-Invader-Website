@@ -1,0 +1,91 @@
+body {
+		background-image: url("../Images/background.jpg");
+
+}
+
+.menubar {
+		overflow: hidden;
+		background-color: white;
+}
+
+.menubar a.on {
+		color: white;
+		background-color: red;
+}
+
+.menubar a {
+		text-decoration: none;
+		color: red;
+		float: left;
+		padding: 6px 125.7px ;
+		font-size: 16px;
+}
+
+.image {
+	text-align: center
+}	
+
+.footer {
+	background-color: black;
+	padding: 30px;
+	
+
+}
+
+.fa {	
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.fa-twitter {
+	background:  #55ACEE;
+	color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-twitch {
+	background: #6441a5;
+	color: white;
+}
+
+
+
+.logo {
+	width: 300px;
+	float: left;
+
+}
+
+.follow {
+	color: white;
+
+}
+
+
+.copyright {
+	color: white;
+
+
+	font-size: 15px;
+
+}
+
+label {
+	color: white;
+}
+
+
+
+
+.icon {
+	width: 200px;
+
+}
+
+
+

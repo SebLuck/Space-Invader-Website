@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Space Shooter</title>
+		<link rel="stylesheet" type="text/css" href="css/header_footer.css" >
+		<link rel="stylesheet" type="text/css" href="css/gamepage.css" >
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	
+	<body>
+		<!-- header  -->
+		<div class="menubar">
+			<a href="homepage.html"> Home </a>
+			<a class="on" href="gamepage.html"> Game </a>
+			<a href="scoreboard.html"> Leaderboard </a>
+			<a href="signup.html"> Sign up</a>
+			<a href="login.html"> Login </a>			
+		</div>
+
+		<div class="image">
+			<img class="icon" src="Images/alien2.png">
+			<img src="Images/title.gif" >
+		</div>
+		
+		<!-- The game  -->
+
+		<div class="instruction"> 
+			<p> Use left and right keys to move and S key to shoot</p>
+			<p id="check_login"></p>
+		</div>
+
+		<div id="game_start">
+			<p class="click_start">  Click to start  </p>
+		</div>
+
+		<div class="game_position">
+			<div class="game_space"> 
+				<p class="score_text">score:</p>
+				<p id="score"> 0</p>
+
+			</div>
+			<div class="game_over">
+				<h1 class="gameover_text">GAME OVER</h1>
+				<p class="gameover_score">Score:</p>
+				<p id="total_score">0</p>
+				<button class="btn" onclick="restart()">Restart</button>
+			</div>	
+		</div>
+
+
+		<script src="javascript/spaceshooter.js"> </script>
+		
+		
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<!-- footer  -->
+		<div class="footer">
+
+			<div>
+				<img class="logo" src="Images/logo.png" >
+			</div>
+			<br>
+			<br>
+			<br>
+			<div>
+				<h3 class="follow"> Follow Us</h2>
+				<a href="https://www.twitter.com/" class="fa fa-twitter"> </a>
+				<a href="https://www.youtube.com/" class="fa fa-youtube"> </a>
+				<a href="https://www.twitch.com/" class="fa fa-twitch"> </a>
+			</div>
+			<br>
+			<div>
+				<h4 class="copyright"> Copyright © 2021 Sebastien Luckhoo All Rights Reserved</h3>
+			</div>
+			
+		</div>
+	</body>
+</html>

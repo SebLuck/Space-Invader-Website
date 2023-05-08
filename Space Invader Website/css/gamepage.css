@@ -1,0 +1,117 @@
+.game_space {
+	background-image: url("../Images/gamebg.jpg");
+	width: 900px;
+	height: 700px;
+	margin-left: 2%;
+	background-size: cover;
+	display: none;
+}
+
+.instruction {
+	color: white;
+
+}
+
+.game_over {
+	display: none;
+	background-image: url("../Images/gamebg.jpg");
+	width: 900px;
+	height: 700px;
+	position: absolute;
+	background-size: cover;
+	color: red;
+	text-align: center;
+}
+.gameover_text {
+	margin-top: 200px;
+	font-size: 30px;
+	
+
+}
+
+
+
+.game_space .spaceship {
+	position: absolute;
+	margin-left: 50px;
+	width: 40px;
+	margin-top: 100px;
+  }
+
+.game_space .spaceship_laser {
+	position: absolute;
+	margin-left: 70px;
+	height: 30px;
+	margin-top: 100px;
+  }
+
+.game_space .alien {
+	position: absolute;
+	margin-left: 70px;
+	margin-top: -18px;
+	width: 40px;
+  }
+  
+.game_space .alien_laser {
+	position: absolute;
+	margin-left: 85px;
+	height: 30px;
+}
+
+.game_position {
+	display: none;
+	justify-content: center;
+	align-items: center;
+    background: darkred;
+}
+
+.btn {
+	padding: 5px 20px;
+	border: 2px solid black;
+	border-radius: 3px;
+	cursor: pointer;
+
+}
+
+
+
+.score_text{
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 12;
+
+}
+#score{
+	color:white;
+	display: inline-block;
+}
+
+#game_start{
+	background-image: url("../Images/gamebg.jpg");
+	width: 1100px;
+	height: 600px;
+	margin-left: 13%;
+	background-size: cover;
+	display: block;
+	
+}
+
+.click_start{
+	margin-left: 270px;
+	padding: 180px 20px;
+	font-size: 100px;
+	font-style: bold;
+	text-shadow: 0 0 10px black;
+	border-color: white;
+	color: darkred;
+	cursor: pointer;
+
+}
+
+#check_login{
+	color: red;
+	font-style: bold;
+	font-size: 20px;
+	text-align: center;
+}

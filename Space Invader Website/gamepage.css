@@ -1,0 +1,8 @@
+.game {
+	background-image: url("Images/gamebg.jpg");
+	padding: 100px;
+	width: 60%;
+	margin-left: 12%;
+	background-size: cover;
+}
+			

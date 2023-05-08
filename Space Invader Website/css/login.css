@@ -1,0 +1,66 @@
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+.login {
+    padding: 20px;
+    width: 60%;
+    margin-left: 17%;
+    background-color: white;
+}
+
+input[type=password]{
+    width: 50%;
+    padding:10px;
+    margin: 6px 0px 20px 0px;
+    background: #C0C0C0;
+    
+}
+
+#submit1{
+    background-color: darkred;
+    color: white;
+    padding: 10px 220px;
+    cursor: pointer;
+
+}
+
+.signup {
+      padding: 20px;
+      width: 60%;
+      margin-left: 17%;
+      background-color: white;
+      text-align: center;
+}
+
+
+.username {
+
+    background-color: #C0C0C0; 
+    width: 50%;
+    padding:10px; 
+    margin: 6px 0px 20px 0px;
+}
+
+.logout{
+    display: none;
+}
+
+#user_username{
+    color: white;
+    margin-left: 44%;
+}
+#user_score{
+    color: white;
+    margin-left: 44%;
+}
+
+.logout_button{
+    background-color: darkred;
+    color: white;
+    padding: 10px 100px;
+    cursor: pointer;
+    margin-left: 40%;
+}
